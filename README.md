@@ -19,8 +19,8 @@ The code in this repository requires the following Python libraries:
 The model architecture is a fully connected 3-layer neural network with the following structure:
 
 1. Input Layer: Takes in the flattened data samples.
-2. First Hidden Layer: 25 neurons with ReLU activation.
-3. Second Hidden Layer: 12 neurons with ReLU activation.
+2. First Hidden Layer: 128 neurons with ReLU activation.
+3. Second Hidden Layer: 50 neurons with ReLU activation.
 4. Output Layer: 6 neurons (representing 6 classes) with Softmax activation.
 
 The number of neurons in the hidden layers and the output layer can be adjusted based on the number of features in the data and the number of output classes, respectively.
